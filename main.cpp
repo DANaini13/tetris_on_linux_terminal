@@ -1,9 +1,12 @@
+#include "UIcontrol.h"
+#include "background.h"
 #include <iostream>
-using namespace std;
-
+#include <time.h>
 
 int main()
-{
-	cout<<"Hello World!\n";
+{		
+	srand((unsigned)time(NULL));
+	interact start;
+	start.start_game();
 	return 0;
 }
